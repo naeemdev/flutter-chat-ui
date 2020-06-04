@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterchatui/widgets/favorite_contacts.dart';
+import 'package:flutterchatui/widgets/recent_chats.dart';
 
 void main() {
   runApp(MyApp());
@@ -62,8 +64,27 @@ class _MyHomePageState extends State<MyHomePage> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        elevation: 0.0,
-        actions: <Widget>[],
+      ),
+      body: Column(
+        children: <Widget>[
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(30.0),
+                  topRight: Radius.circular(30.0),
+                ),
+              ),
+              child: Column(
+                children: <Widget>[
+                  FavoriteContacts(),
+                  RecentChats(),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

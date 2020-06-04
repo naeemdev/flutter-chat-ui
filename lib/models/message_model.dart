@@ -19,43 +19,43 @@ class Message {
 final User currentUser = User(
   id: 0,
   name: 'Current User',
-  imageUrl: 'assets/images/naeem.png',
+  imageUrl: 'assets/images/naeem.jpg',
 );
 
 final User zohaib = User(
   id: 1,
   name: 'Zohaib',
-  imageUrl: 'assets/images/user.png',
+  imageUrl: 'assets/images/user.jpg',
 );
 final User miah = User(
   id: 2,
   name: 'Miah',
-  imageUrl: 'assets/images/user1.png',
+  imageUrl: 'assets/images/user1.jpg',
 );
 final User asad = User(
   id: 3,
   name: 'Asad',
-  imageUrl: 'assets/images/user2.png',
+  imageUrl: 'assets/images/user2.jpg',
 );
 final User rajaib = User(
   id: 4,
   name: 'rajab',
-  imageUrl: 'assets/images/user3.png',
+  imageUrl: 'assets/images/user3.jpg',
 );
 final User naeem = User(
   id: 5,
   name: 'Naeem',
-  imageUrl: 'assets/images/naeem.png',
+  imageUrl: 'assets/images/naeem.jpg',
 );
 final User ali = User(
   id: 6,
   name: 'Ali',
-  imageUrl: 'assets/images/user4.png',
+  imageUrl: 'assets/images/user4.jpg',
 );
 final User khan = User(
   id: 7,
   name: 'Khan',
-  imageUrl: 'assets/images/user5.png',
+  imageUrl: 'assets/images/user5.jpg',
 );
 
 // FAVORITE CONTACTS
